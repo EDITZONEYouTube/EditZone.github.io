@@ -1,5 +1,5 @@
 body { font-family: Arial, sans-serif; margin: 0; padding: 0; 
-    background-color: #f4f4f4;
+    background-color: #4f4f4f;
 }
 header { background-color: #333; color: white; padding: 10px 
     0; text-align: center;
@@ -20,7 +20,7 @@ h1, h2 { color: #333;
 .video-title { margin-top: 10px; font-weight: bold;
 }
 footer { background-color: #333; color: white; text-align: 
-    center; padding: 10px 0; position: fixed; bottom: 0; 
+    center; padding: 5px 0; position: fixed; bottom: 0; 
     width: 100%;
 }
 footer a { color: white; text-decoration: none; margin: 0 
