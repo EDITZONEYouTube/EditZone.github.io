@@ -27,4 +27,11 @@ footer a { color: white; text-decoration: none; margin: 0
     5px;
 }
 
+/* Make footer smaller */
+footer {
+    padding: 10px 20px; /* Adjust padding to make the footer smaller */
+    font-size: 12px; /* Adjust font size to make text smaller */
+    background-color: #f8f9fa; /* Optional: Change background color */
+    text-align: center; /* Center the text */
+}
 
