@@ -1,37 +1,64 @@
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #4f4f4f;
 }
-header { background-color: #333; color: white; padding: 10px 
-    0; text-align: center;
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
 }
-main { padding: 20px;
+
+main {
+    padding: 20px;
+    padding-bottom: 60px; /* Extra space for the footer */
 }
+
 #about, #videos {
     margin: 20px 0;
 }
-h1, h2 { color: #333;
+
+h1, h2 {
+    color: #333;
 }
+
 #video-container {
-    display: flex; flex-direction: column; align-items: 
-    center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.video-item { margin: 20px 0; text-align: center;
+
+.video-item {
+    margin: 20px 0;
+    text-align: center;
 }
-.video-title { margin-top: 10px; font-weight: bold;
+
+.video-title {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
 }
-footer { background-color: #333; color: white; text-align: 
-    center; padding: 10px 0; position: fixed; bottom: 0; 
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
     width: 100%;
 }
-footer a { color: white; text-decoration: none; margin: 0 
-    5px;
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
 }
 
-/* Make footer smaller */
-footer {
-    padding: 5px 10px; /* Adjust padding to make the footer smaller */
-    font-size: 12px; /* Adjust font size to make text smaller */
-    background-color: #f8f9fa; /* Optional: Change background color */
-    text-align: center; /* Center the text */
+footer a:hover {
+    text-decoration: underline;
 }
-
