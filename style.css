@@ -14,7 +14,6 @@ header {
 
 main {
     padding: 20px;
-    padding-bottom: 60px; /* Extra space for the footer */
 }
 
 #about, #videos {
@@ -39,26 +38,20 @@ h1, h2 {
 .video-title {
     margin-top: 10px;
     font-weight: bold;
-    color: #333;
 }
 
 footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 5px 10px;
-    font-size: 12px;
+    padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
 footer a {
-    color: Black;
+    color: white;
     text-decoration: none;
-    margin: 0 5px;
-}
-
-footer a:hover {
-    text-decoration: underline;
+    margin: 0 10px;
 }
