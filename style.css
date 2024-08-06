@@ -42,6 +42,16 @@ h1, h2 {
     font-weight: bold;
 }
 
+/* Section with background image */
+.background-section {
+    background-image: url('images/pngtree-video-playback-logo-decoration-background-image_340161.jpg'); /* Update the path here */
+    background-size: cover; /* Ensures the image covers the section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    padding: 2rem; /* Adds padding around the content */
+    color: #fff; /* Sets text color to white for better contrast */
+}
+
 footer {
     background-color: #333;
     color: white;
