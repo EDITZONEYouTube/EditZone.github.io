@@ -1,11 +1,47 @@
+/* CSS DOCUMENT */
+body {
+    font-family: inherit;
+    background-color: lightblue;
+    color: #f2f2f2;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+/* Added background image and additional styles */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url('/mnt/data/pngtree-geometric-electrical-neon-light-effect-banner-image_406846.jpg'); /* Path to the generated image */
+    background-image: url('EDITZONEYoutube/EditZone.github.io/pngtree-video-playback-logo-decoration-background-image_340161.jpg');
     background-size: cover; /* Ensures the image covers the whole page */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
-    color: white; /* Adjust text color to contrast with the background */
+    padding-bottom: 50px; /* Add space for the footer */
+}
+
+.wrapper {
+    border: 1px solid #999 !important;
+    border-radius: 5px;
+    color: #222 !important;
+    padding: 10px !important;
+    background: #ddd !important;
+}
+
+.element-1 {
+    color: #FFF;
+    font-size: 22px;
+    line-height: 32px;
+    background: #549dc5;
+    padding: 25px 30px 20px 30px;
+    font-weight: 400;
+}
+
+.box-1 {
+    margin: 0;
+    min-width: 190px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
 }
 
 header {
@@ -44,16 +80,6 @@ h1, h2 {
     font-weight: bold;
 }
 
-/* Apply background image to the entire page */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-image: url('EDITZONEYoutube/EditZone.github.io/pngtree-video-playback-logo-decoration-background-image_340161.jpg; /* Path to your image */
-    background-size: cover; /* Ensures the image covers the whole page */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-}
-
 footer {
     background-color: #333;
     color: white;
@@ -71,3 +97,5 @@ footer a {
     margin: 0 10px;
     display: inline-block;
 }
+
+/* END OF TOP ELEMENTS */
